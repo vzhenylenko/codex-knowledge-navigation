@@ -1,0 +1,15 @@
+# Knowledge navigation prototype
+
+Independent CS6750 exploratory interface study. Application styling is based on a supplied Codex screenshot. Wiki navigation is a proposed design, not a released product feature. All notes are illustrative.
+
+## Views
+
+- `index.html?mode=A`: page tree
+- `index.html?mode=B`: topics and visit trail
+- `index.html?mode=C`: search and recent pages
+- `index.html?mode=current`: reconstruction of the author-reported chat/file workflow
+- `basic.html`: original low-fidelity wireframes
+
+Add `&study=1` to hide the alternative-switching bar for a focused study link. The current-workflow view is a reconstruction, not a captured baseline. This static demo has no account connection, private-file access, analytics, or survey-response collection.
+
+Serve these files with any static host; no installation or build step is required.
