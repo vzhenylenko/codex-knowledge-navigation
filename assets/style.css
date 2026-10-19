@@ -31,3 +31,11 @@
 @media(min-width:1500px){.current-mode .workspace{grid-template-columns:minmax(440px,1fr) minmax(450px,42%)}.current-empty h1{font-size:28px}.current-mode .page-content h1{font-size:29px}.current-mode .page-content p,.current-mode .page-content li{font-size:15px}}
 @media(max-width:1050px){.current-mode .workspace{grid-template-columns:minmax(0,1fr) minmax(300px,50%)}.current-empty{padding:24px 12px}.current-empty h1{font-size:20px}.current-composer{margin:12px 10px 15px;padding-left:12px;padding-right:12px}.computer-label{display:none}.current-mode .page-content{padding:20px 18px 35px}.current-mode .page-content h1{font-size:23px}}
 @media(max-width:740px){.current-mode .workspace{grid-template-columns:minmax(0,1fr)}.current-mode .current-chat-pane{display:none}.current-file-closed .current-chat-pane{display:flex}.current-mode .document-panel{border-left:0}.current-mode .current-file-tab{height:44px}.current-mode .page-content{padding:25px 22px}.current-mode .current-empty h1{font-size:23px}}
+
+/* Emphasize the study choices while keeping the prototype label quiet. */
+.studybar{gap:22px}.brand b{font-size:10px;font-weight:400;color:#a7abb2}.concepts{gap:7px}.concepts a{font-size:15px;font-weight:600;color:#555d68;padding:10px 16px;line-height:1.3;border:1px solid #e5e7eb;background:#fafafa}.concepts a:hover{background:#eceff3;color:#252c36}.concepts a.active{background:#e2e6ec;color:#202833;border-color:#cbd2dd;box-shadow:0 1px 2px #00000006}.concepts a span{font-weight:600}.page-content li{font-size:14px;line-height:1.9;color:#747f8e}
+@media(max-width:1050px){.studybar{gap:12px}.concepts a{font-size:13px;padding:9px 12px}}
+@media(max-width:740px){.brand{display:none}.concepts{gap:4px}.concepts a{font-size:12px;padding:8px 10px}.concepts a span{display:inline}}
+@media(max-width:400px){.studybar{padding:6px}.concepts{gap:3px}.concepts a{font-size:11px;padding:8px 7px}.concepts a span{margin-left:2px}}
+
+.course-shortcuts{display:flex;flex-wrap:wrap;gap:12px 22px;font-size:13px;margin:-9px 0 25px}

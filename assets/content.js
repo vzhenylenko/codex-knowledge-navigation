@@ -1,4 +1,4 @@
-window.courseGroups = ["Research methods", "Feedback cycles", "Human capabilities", "Needfinding", "Design alternatives", "Prototyping and evaluation"];
+window.courseGroups = ["Research methods", "Feedback cycles", "Human capabilities", "Needfinding", "Design alternatives", "Prototyping and evaluation", "Course overview", "Principles in context", "Applications and next steps"];
 window.courseNotes = {
   "home": {
     "title": "Course notes",
@@ -6,6 +6,8 @@ window.courseNotes = {
     "path": "/wiki/README.md",
     "summary": "CS6750 Human–Computer Interaction",
     "links": [
+      "course-map",
+      "reading-guide",
       "validity",
       "reliability",
       "external-validity",
@@ -28,7 +30,22 @@ window.courseNotes = {
       "task-analysis",
       "fidelity",
       "horizontal-vertical",
-      "evaluation"
+      "evaluation",
+      "introduction",
+      "design-principles",
+      "representations",
+      "distributed-cognition",
+      "interfaces-politics",
+      "principles-recap",
+      "ethics",
+      "heuristic-evaluation",
+      "cognitive-walkthrough",
+      "agile",
+      "methods-recap",
+      "technologies",
+      "ideas",
+      "domains",
+      "next-steps"
     ]
   },
   "validity": {
@@ -188,7 +205,7 @@ window.courseNotes = {
   "mental-models": {
     "title": "Mental models",
     "folder": "Human capabilities",
-    "lesson": "2.4",
+    "lesson": "2.6",
     "path": "/wiki/human-capabilities/mental-models.md",
     "summary": "Understand how people think the system works.",
     "links": [
@@ -196,8 +213,8 @@ window.courseNotes = {
       "cognitive-load",
       "task-analysis"
     ],
-    "source": "CS6750, Lesson 2.4. Study summary of the saved Summer 2017 lecture transcript.",
-    "body": "<h2>Key idea</h2><p>A mental model is a person’s understanding of how a system behaves. It guides expectations, predictions, and recovery. A mismatch between that understanding and the system can create mistakes even when controls are easy to operate. Consistent language and observable effects help people develop a useful model.</p><h2>Example</h2><p>In a linked knowledge base, a reader might expect Back to revisit the previous page, while a folder breadcrumb moves to a structural parent. Making those relationships distinguishable can help the person predict where each action leads.</p><h2>Check your understanding</h2><p>What does the person believe will happen next? Does an error reflect an execution slip or a misunderstanding of the system?</p><p class=\"source-note\">Source: CS6750, Lesson 2.4. Study summary of the saved Summer 2017 lecture transcript.</p>"
+    "source": "CS6750, Lesson 2.6. Study summary of the saved Summer 2017 lecture transcript.",
+    "body": "<h2>Key idea</h2><p>A mental model is a person’s understanding of how a system behaves. It guides expectations, predictions, and recovery. A mismatch between that understanding and the system can create mistakes even when controls are easy to operate. Consistent language and observable effects help people develop a useful model.</p><h2>Example</h2><p>In a linked knowledge base, a reader might expect Back to revisit the previous page, while a folder breadcrumb moves to a structural parent. Making those relationships distinguishable can help the person predict where each action leads.</p><h2>Check your understanding</h2><p>What does the person believe will happen next? Does an error reflect an execution slip or a misunderstanding of the system?</p><p class=\"source-note\">Source: CS6750, Lesson 2.6. Study summary of the saved Summer 2017 lecture transcript.</p>"
   },
   "needfinding": {
     "title": "Needfinding",
@@ -303,7 +320,7 @@ window.courseNotes = {
   "task-analysis": {
     "title": "Tasks and task analysis",
     "folder": "Design alternatives",
-    "lesson": "2.1",
+    "lesson": "2.7",
     "path": "/wiki/design-alternatives/tasks-and-task-analysis.md",
     "summary": "Separate the user’s underlying goal from the current interface actions.",
     "links": [
@@ -311,8 +328,8 @@ window.courseNotes = {
       "gulf-execution",
       "cognitive-load"
     ],
-    "source": "CS6750, Lesson 2.1. Study summary of the saved Summer 2017 lecture transcript.",
-    "body": "<h2>Key idea</h2><p>A task describes what a person wants to accomplish. Interface actions describe how a particular system lets them do it. Understanding the underlying purpose can reveal alternatives that would be missed by only rearranging existing buttons. Include physical, cognitive, and social parts of the activity.</p><h2>Example</h2><p>“Find the explanation I saved and compare it with a related concept” is a task. “Ask the agent for a file link” is one way to carry it out. A task analysis can identify locating, opening, interpreting, following a link, and returning as useful subtasks.</p><h2>Check your understanding</h2><p>Why is the person performing each action? Which steps are essential to the goal, and which are consequences of the current interface?</p><p class=\"source-note\">Source: CS6750, Lesson 2.1. Study summary of the saved Summer 2017 lecture transcript.</p>"
+    "source": "CS6750, Lesson 2.7. Study summary of the saved Summer 2017 lecture transcript.",
+    "body": "<h2>Key idea</h2><p>A task describes what a person wants to accomplish. Interface actions describe how a particular system lets them do it. Understanding the underlying purpose can reveal alternatives that would be missed by only rearranging existing buttons. Include physical, cognitive, and social parts of the activity.</p><h2>Example</h2><p>“Find the explanation I saved and compare it with a related concept” is a task. “Ask the agent for a file link” is one way to carry it out. A task analysis can identify locating, opening, interpreting, following a link, and returning as useful subtasks.</p><h2>Check your understanding</h2><p>Why is the person performing each action? Which steps are essential to the goal, and which are consequences of the current interface?</p><p class=\"source-note\">Source: CS6750, Lesson 2.7. Study summary of the saved Summer 2017 lecture transcript.</p>"
   },
   "fidelity": {
     "title": "Prototype fidelity",
@@ -355,5 +372,252 @@ window.courseNotes = {
     ],
     "source": "CS6750, Lesson 3.1 Introduction to Methods and the saved Individual Project guidelines. Study summary.",
     "body": "<h2>Key idea</h2><p>Evaluation asks how well a design supports its intended users and tasks. A plan should state who participates, what they do, what evidence is collected, and how it will be interpreted. Quantitative and qualitative evidence can address different parts of the question.</p><h2>Example</h2><p>A navigation study can record whether a participant reaches a target and ask why a route seemed clear or confusing. Reactions to a screenshot concern perceived clarity; they do not demonstrate measured task completion or time savings. Match the claim to the procedure.</p><h2>Check your understanding</h2><p>What observation would count as success? What comparison is meaningful, and what limitations will remain?</p><p class=\"source-note\">Source: CS6750, Lesson 3.1 Introduction to Methods and the saved Individual Project guidelines. Study summary.</p>"
+  },
+  "introduction": {
+    "title": "What HCI studies",
+    "folder": "Course overview",
+    "lesson": "1.1–1.3",
+    "path": "/wiki/course-overview/introduction.md",
+    "summary": "Study people, tasks, interfaces, and the contexts in which they meet.",
+    "links": [
+      "task-analysis",
+      "needfinding",
+      "planning"
+    ],
+    "source": "CS6750, Lesson 1.1–1.3. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>HCI studies how people interact with technology and how designs can support their goals. A task-centered description starts with what a person wants to accomplish and the setting in which it happens. Interface design combines understanding people with iterating and evaluating possible solutions.</p><h2>Example</h2><p>Finding a saved explanation is a task; using a page tree is one possible method. Start by investigating how people currently find explanations before selecting a navigation control.</p><h2>Check your understanding</h2><p>What is the user’s goal, what is the current method, and what evidence would help distinguish them?</p><p class=\"source-note\">Source: CS6750, Lesson 1.1–1.3. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "design-principles": {
+    "title": "Design principles and heuristics",
+    "folder": "Principles in context",
+    "lesson": "2.5",
+    "path": "/wiki/principles-in-context/design-principles.md",
+    "summary": "Use discoverability, mapping, consistency, constraints, and feedback to inspect an interaction.",
+    "links": [
+      "gulf-execution",
+      "gulf-evaluation",
+      "heuristic-evaluation"
+    ],
+    "source": "CS6750, Lesson 2.5. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>Design principles give reusable ways to reason about interfaces. Visible actions support discoverability; mapping connects a control to its effect; consistent patterns help transfer learning. Constraints can prevent errors, while tolerance and clear feedback help users recover. A principle is a lens for identifying a problem, not proof that every user will encounter it.</p><h2>Example</h2><p>A selected page row, matching document title, and predictable Back control can make the current state easier to interpret. A small icon without a label may require prior knowledge.</p><h2>Check your understanding</h2><p>Which principle explains a particular observation, and what evidence would establish its practical impact?</p><p class=\"source-note\">Source: CS6750, Lesson 2.5. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "representations": {
+    "title": "Mental representations and interface metaphors",
+    "folder": "Principles in context",
+    "lesson": "2.6",
+    "path": "/wiki/principles-in-context/representations.md",
+    "summary": "Choose a representation that makes the task’s important relationships visible.",
+    "links": [
+      "mental-models",
+      "recognition-recall",
+      "distributed-cognition"
+    ],
+    "source": "CS6750, Lesson 2.6. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>A representation changes which relationships are easy to perceive and which operations require mental effort. Interface metaphors connect unfamiliar actions to familiar structures, but the metaphor may imply capabilities the interface does not actually provide. Consider the user’s conceptual model as well as the display.</p><h2>Example</h2><p>A folder tree emphasizes containment, a topic index emphasizes categories, and search emphasizes query matches. These representations can support different starting strategies for the same collection.</p><h2>Check your understanding</h2><p>What useful relationship does each representation expose, and what might it hide?</p><p class=\"source-note\">Source: CS6750, Lesson 2.6. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "distributed-cognition": {
+    "title": "Distributed cognition",
+    "folder": "Principles in context",
+    "lesson": "2.8",
+    "path": "/wiki/principles-in-context/distributed-cognition.md",
+    "summary": "Analyze cognition across people, artifacts, and their relationships.",
+    "links": [
+      "representations",
+      "cognitive-load",
+      "observation"
+    ],
+    "source": "CS6750, Lesson 2.8. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>The unit of analysis can include a person, the tools they use, and other people involved in the activity. External representations can carry information that would otherwise need to be remembered. Situated action and activity theory also direct attention to the context and organization of work.</p><h2>Example</h2><p>A learner uses a note, a visit trail, and a classmate’s explanation together. Analyzing only clicks in the document viewer would miss how those resources support the activity.</p><h2>Check your understanding</h2><p>What information is carried by each artifact, and where does it move or get lost?</p><p class=\"source-note\">Source: CS6750, Lesson 2.8. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "interfaces-politics": {
+    "title": "Interfaces, values, and politics",
+    "folder": "Principles in context",
+    "lesson": "2.9",
+    "path": "/wiki/principles-in-context/interfaces-politics.md",
+    "summary": "Ask who benefits, who is excluded, and which values a design makes easier to enact.",
+    "links": [
+      "ethics",
+      "observation",
+      "design-principles"
+    ],
+    "source": "CS6750, Lesson 2.9. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>Interfaces can shape behavior and distribute access, effort, and authority. Value-sensitive design asks designers to consider stakeholders and values alongside usability. Unintended effects deserve attention as well as the intended task benefit.</p><h2>Example</h2><p>A knowledge browser that assumes everyone knows the folder taxonomy may favor its author. Exposing sensitive file names in a shared view could create a different problem even when navigation is convenient.</p><h2>Check your understanding</h2><p>Whose needs are represented, whose needs are missing, and which tradeoffs should be investigated?</p><p class=\"source-note\">Source: CS6750, Lesson 2.9. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "principles-recap": {
+    "title": "Connecting the design principles",
+    "folder": "Principles in context",
+    "lesson": "2.10",
+    "path": "/wiki/principles-in-context/principles-recap.md",
+    "summary": "Combine action, perception, memory, representations, and context when explaining a design.",
+    "links": [
+      "feedback-cycles",
+      "cognitive-load",
+      "task-analysis",
+      "interfaces-politics"
+    ],
+    "source": "CS6750, Lesson 2.10. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>The principles unit offers complementary perspectives: feedback cycles explain acting and interpreting; human abilities help explain effort and error; mental models and task analysis describe understanding and action; distributed cognition and values broaden the context. Use the perspective that explains the specific observation.</p><h2>Example</h2><p>A user loses their place after opening another note. Visibility of state, memory demands, and the representation of page relationships offer different hypotheses to examine.</p><h2>Check your understanding</h2><p>Can you explain the observation without assuming that a favorite design pattern is always better?</p><p class=\"source-note\">Source: CS6750, Lesson 2.10. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "ethics": {
+    "title": "Ethics in needfinding",
+    "folder": "Needfinding",
+    "lesson": "3.2",
+    "path": "/wiki/needfinding/ethics.md",
+    "summary": "Plan voluntary participation, clear expectations, and careful handling of participant information.",
+    "links": [
+      "survey",
+      "bias",
+      "interfaces-politics"
+    ],
+    "source": "CS6750, Lesson 3.2. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>Human research requires attention to participants’ rights, possible harms, and fair treatment. For a course project, follow the saved course instructions and applicable training requirements. Explain the activity clearly, allow people to decline, and collect only the information needed for the research question.</p><h2>Example</h2><p>A note-navigation survey can ask respondents to describe steps without requesting copies of private notes. Participants should know that optional prototype feedback can be skipped.</p><h2>Check your understanding</h2><p>What information is necessary, what could expose a participant, and how will you explain participation?</p><p class=\"source-note\">Source: CS6750, Lesson 3.2. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "heuristic-evaluation": {
+    "title": "Heuristic evaluation",
+    "folder": "Prototyping and evaluation",
+    "lesson": "3.6",
+    "path": "/wiki/prototyping-and-evaluation/heuristic-evaluation.md",
+    "summary": "Inspect an interface against usability principles and record concrete evidence.",
+    "links": [
+      "design-principles",
+      "evaluation",
+      "cognitive-walkthrough"
+    ],
+    "source": "CS6750, Lesson 3.6. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>A heuristic evaluation predicts potential usability issues by examining an interface against selected principles. Record the location, task step, visible behavior, heuristic, and likely consequence. Inspection findings do not establish observed participant frequency or measured performance.</p><h2>Example</h2><p>Inspect whether the page title agrees with the highlighted navigation row, whether Back restores the expected page, and whether a person can discover where notes live.</p><h2>Check your understanding</h2><p>What did the interface show, which principle applies, and what remains a hypothesis?</p><p class=\"source-note\">Source: CS6750, Lesson 3.6. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "cognitive-walkthrough": {
+    "title": "Cognitive walkthrough",
+    "folder": "Prototyping and evaluation",
+    "lesson": "3.6",
+    "path": "/wiki/prototyping-and-evaluation/cognitive-walkthrough.md",
+    "summary": "Follow a task step by step from the perspective of a learner.",
+    "links": [
+      "task-analysis",
+      "gulf-execution",
+      "gulf-evaluation",
+      "heuristic-evaluation"
+    ],
+    "source": "CS6750, Lesson 3.6. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>A cognitive walkthrough examines whether a user can form the right goal, notice the available action, connect the action to the goal, and interpret the resulting feedback. Specify the user’s assumed knowledge and a concrete action sequence before inspecting it.</p><h2>Example</h2><p>For opening a saved note, consider whether a new user would look for Wiki, recognize a topic label, select the right page, and understand that the requested document opened.</p><h2>Check your understanding</h2><p>At which step could the user lack the knowledge needed to continue, and what supports learning there?</p><p class=\"source-note\">Source: CS6750, Lesson 3.6. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "agile": {
+    "title": "HCI and Agile development",
+    "folder": "Prototyping and evaluation",
+    "lesson": "3.7",
+    "path": "/wiki/prototyping-and-evaluation/agile.md",
+    "summary": "Connect rapid delivery with repeated inquiry and feedback.",
+    "links": [
+      "planning",
+      "fidelity",
+      "evaluation"
+    ],
+    "source": "CS6750, Lesson 3.7. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>Agile development and user-centered design both value feedback, but frequent releases alone do not ensure that user needs have been understood. Lightweight prototypes and short studies can inform iterations; findings should feed back into priorities and design choices.</p><h2>Example</h2><p>Test a navigation concept before extending editing or synchronization. Use feedback to decide what the next iteration should investigate rather than treating the current feature list as fixed.</p><h2>Check your understanding</h2><p>What will the next iteration teach you, and how could that evidence change the plan?</p><p class=\"source-note\">Source: CS6750, Lesson 3.7. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "methods-recap": {
+    "title": "From needfinding to evaluation",
+    "folder": "Prototyping and evaluation",
+    "lesson": "3.8",
+    "path": "/wiki/prototyping-and-evaluation/methods-recap.md",
+    "summary": "Match the method to the question and the stage of the design cycle.",
+    "links": [
+      "needfinding",
+      "brainstorming",
+      "fidelity",
+      "evaluation"
+    ],
+    "source": "CS6750, Lesson 3.8. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>Needfinding investigates existing tasks and practices. Design alternatives explore possible ways to support them. Prototyping makes selected questions concrete, and evaluation supplies feedback for revision. The cycle is iterative; evidence from one stage can send the project back to an earlier assumption.</p><h2>Example</h2><p>A survey about current note retrieval can shape design alternatives. Later task-based evaluation can examine how a selected prototype supports finding, following, and returning.</p><h2>Check your understanding</h2><p>Which uncertainty are you addressing, and why is this method appropriate now?</p><p class=\"source-note\">Source: CS6750, Lesson 3.8. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "technologies": {
+    "title": "Applications: technologies",
+    "folder": "Applications and next steps",
+    "lesson": "4.1",
+    "path": "/wiki/applications-and-next-steps/technologies.md",
+    "summary": "Apply HCI principles across emerging interaction technologies.",
+    "links": [
+      "direct-manipulation",
+      "feedback-cycles",
+      "domains"
+    ],
+    "source": "CS6750, Lesson 4.1. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>The applications unit uses technologies such as virtual and augmented reality, wearable computing, and robotics as starting points for investigation. Different devices change the available input, feedback, physical setting, and social expectations. Transfer principles while checking the assumptions of the new setting.</p><h2>Example</h2><p>A hands-free wearable and a desktop knowledge browser may support related information goals, yet differ in visibility, privacy, and the resources available for confirmation.</p><h2>Check your understanding</h2><p>Which assumptions from a desktop interface would fail in another physical or social setting?</p><p class=\"source-note\">Source: CS6750, Lesson 4.1. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "ideas": {
+    "title": "Applications: interaction ideas",
+    "folder": "Applications and next steps",
+    "lesson": "4.2",
+    "path": "/wiki/applications-and-next-steps/ideas.md",
+    "summary": "Explore context sensitivity, gestures, pen and touch, visualization, and collaborative work.",
+    "links": [
+      "representations",
+      "distributed-cognition",
+      "domains"
+    ],
+    "source": "CS6750, Lesson 4.2. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>Interaction ideas describe ways to organize the relationship between people and technology. The saved lectures introduce context-sensitive computing, gesture-based interaction, pen and touch, information visualization, computer-supported cooperative work, and social computing. Each raises questions about interpretation and feedback.</p><h2>Example</h2><p>A visualization of linked notes may expose relationships, but a shared knowledge space also requires understanding how people coordinate and interpret one another’s contributions.</p><h2>Check your understanding</h2><p>Which interaction idea fits the task, and what new ambiguity or coordination cost might it introduce?</p><p class=\"source-note\">Source: CS6750, Lesson 4.2. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "domains": {
+    "title": "Applications: domains",
+    "folder": "Applications and next steps",
+    "lesson": "4.3",
+    "path": "/wiki/applications-and-next-steps/domains.md",
+    "summary": "Study how context changes design goals in accessibility, education, health, security, and games.",
+    "links": [
+      "interfaces-politics",
+      "ethics",
+      "technologies",
+      "ideas"
+    ],
+    "source": "CS6750, Lesson 4.3. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.",
+    "body": "<h2>Key idea</h2><p>Application domains bring different stakeholders, constraints, and definitions of success. The saved applications lectures cover special needs and accessibility, education, healthcare, security, and games. A familiar interface pattern still needs to be evaluated in the domain where people will use it.</p><h2>Example</h2><p>In an educational knowledge base, retrieving the right explanation and understanding its context matter alongside speed. Different learners may need different ways to navigate the same material.</p><h2>Check your understanding</h2><p>Whose capabilities and goals matter in this domain, and what would count as a useful outcome?</p><p class=\"source-note\">Source: CS6750, Lesson 4.3. Original study summary based on the saved Summer 2017 lecture transcript; course placement follows the saved Fall 2026 syllabus.</p>"
+  },
+  "next-steps": {
+    "title": "Course recap and further study",
+    "folder": "Applications and next steps",
+    "lesson": "5.1–5.3",
+    "path": "/wiki/applications-and-next-steps/next-steps.md",
+    "summary": "Connect the course to human factors, UX, psychology, cognitive science, and research.",
+    "links": [
+      "principles-recap",
+      "methods-recap",
+      "reading-guide"
+    ],
+    "source": "CS6750, Lessons 5.1 Course Recap, 5.2 Related Fields, and 5.3 Next Steps. Original summary of the saved Summer 2017 lecture transcript. Historical study directions are not a current program or admissions guide.",
+    "body": "<h2>Key idea</h2><p>The conclusion revisits principles and methods, relates HCI to neighboring fields, and outlines directions for further study. Human factors, interaction design, user experience, psychology, cognitive science, collaborative systems, and intelligent interfaces offer different emphases. Use a concrete task and research question to choose what to investigate next.</p><h2>Example</h2><p>A knowledge-navigation project can lead to questions about memory, information visualization, or human–AI interaction. Select the next reading or study based on the unresolved question.</p><h2>Check your understanding</h2><p>Which finding from your project would you want to investigate more deeply, and which neighboring field could help?</p><p class=\"source-note\">Source: CS6750, Lessons 5.1 Course Recap, 5.2 Related Fields, and 5.3 Next Steps. Original summary of the saved Summer 2017 lecture transcript. Historical study directions are not a current program or admissions guide.</p>"
+  },
+  "reading-guide": {
+    "title": "Course reading guide",
+    "folder": "Course overview",
+    "lesson": "Resources",
+    "path": "/wiki/course-overview/reading-guide.md",
+    "summary": "Find the saved reading titles associated with a concept.",
+    "links": [
+      "feedback-cycles",
+      "distributed-cognition",
+      "survey",
+      "fidelity",
+      "evaluation"
+    ],
+    "source": "Reading titles checked against the local course_files_export/Required Readings inventory. This is a navigation guide, not a reproduced reading packet.",
+    "body": "<h2>Principles and feedback</h2><p>Norman, The Design of Everyday Things, Chapters 1, 2, and 5; Norman, Cognitive Engineering.</p><p>Study connections: <a class=\"inline-link\" data-page=\"feedback-cycles\" href=\"#feedback-cycles\">Feedback cycles</a>, <a class=\"inline-link\" data-page=\"mental-models\" href=\"#mental-models\">Mental models</a>.</p><h2>Interaction and context</h2><p>Hutchins, Hollan, and Norman, Direct Manipulation Interfaces; Nardi, Studying Context; Hutchins, How a Cockpit Remembers Its Speeds.</p><p>Study connections: <a class=\"inline-link\" data-page=\"direct-manipulation\" href=\"#direct-manipulation\">Direct manipulation</a>, <a class=\"inline-link\" data-page=\"distributed-cognition\" href=\"#distributed-cognition\">Distributed cognition</a>.</p><h2>Values and social effects</h2><p>Winner, Do Artifacts Have Politics?; Friedman and colleagues, Value Sensitive Design.</p><p>Study connections: <a class=\"inline-link\" data-page=\"interfaces-politics\" href=\"#interfaces-politics\">Interfaces, values, and politics</a>.</p><h2>Needfinding and alternatives</h2><p>Müller, Sedley, and Ferrall-Nunge, Survey Research in HCI; Rogers, Sharp, and Preece, The Process of Interaction Design; Faste and colleagues, Brainstorm, Chainstorm, Cheatstorm, Tweetstorm.</p><p>Study connections: <a class=\"inline-link\" data-page=\"survey\" href=\"#survey\">Survey design</a>, <a class=\"inline-link\" data-page=\"brainstorming\" href=\"#brainstorming\">Brainstorming design alternatives</a>.</p><h2>Prototyping</h2><p>Houde and Hill, What Do Prototypes Prototype?; Beaudouin-Lafon and Mackay, Prototyping Tools and Techniques.</p><p>Study connections: <a class=\"inline-link\" data-page=\"fidelity\" href=\"#fidelity\">Prototype fidelity</a>, <a class=\"inline-link\" data-page=\"horizontal-vertical\" href=\"#horizontal-vertical\">Horizontal and vertical prototypes</a>.</p><h2>Evaluation and iteration</h2><p>Polson and colleagues, Cognitive Walkthroughs; Nielsen and Molich, Heuristic Evaluation of User Interfaces; Chamberlain, Sharp, and Maiden, Towards a Framework for Integrating Agile Development and User-Centred Design.</p><p>Study connections: <a class=\"inline-link\" data-page=\"heuristic-evaluation\" href=\"#heuristic-evaluation\">Heuristic evaluation</a>, <a class=\"inline-link\" data-page=\"cognitive-walkthrough\" href=\"#cognitive-walkthrough\">Cognitive walkthrough</a>, <a class=\"inline-link\" data-page=\"agile\" href=\"#agile\">HCI and Agile development</a>.</p><p class=\"source-note\">Reading titles checked against the local course_files_export/Required Readings inventory. This is a navigation guide, not a reproduced reading packet.</p>"
+  },
+  "course-map": {
+    "title": "CS6750 course map",
+    "folder": "Course overview",
+    "lesson": "All units",
+    "path": "/wiki/course-overview/course-map.md",
+    "summary": "A route through the five units and 27 lessons in the saved syllabus.",
+    "links": [
+      "introduction",
+      "principles-recap",
+      "methods-recap",
+      "technologies",
+      "next-steps",
+      "reading-guide"
+    ],
+    "source": "Lesson titles and numbering: saved Fall 2026 CS6750 syllabus. Linked notes are original study summaries, primarily based on the saved Summer 2017 lecture transcript; they are not complete lecture replacements.",
+    "body": "<p>A course-wide index of all five units. Each lesson leads to a related study summary; some summaries cover several lessons.</p><h2>1 — Introduction</h2><ul><li><a class=\"inline-link\" data-page=\"introduction\" href=\"#introduction\">1.1 Introduction to Human-Computer Interaction</a></li><li><a class=\"inline-link\" data-page=\"introduction\" href=\"#introduction\">1.2 Introduction to CS6750</a></li><li><a class=\"inline-link\" data-page=\"introduction\" href=\"#introduction\">1.3 Exploring HCI</a></li></ul><h2>2 — Principles</h2><ul><li><a class=\"inline-link\" data-page=\"principles-recap\" href=\"#principles-recap\">2.1 Introduction to Principles</a></li><li><a class=\"inline-link\" data-page=\"feedback-cycles\" href=\"#feedback-cycles\">2.2 Feedback Cycles</a></li><li><a class=\"inline-link\" data-page=\"direct-manipulation\" href=\"#direct-manipulation\">2.3 Direct Manipulation and Invisible Interfaces</a></li><li><a class=\"inline-link\" data-page=\"cognitive-load\" href=\"#cognitive-load\">2.4 Human Abilities</a></li><li><a class=\"inline-link\" data-page=\"design-principles\" href=\"#design-principles\">2.5 Design Principles and Heuristics</a></li><li><a class=\"inline-link\" data-page=\"representations\" href=\"#representations\">2.6 Mental Models and Representations</a></li><li><a class=\"inline-link\" data-page=\"task-analysis\" href=\"#task-analysis\">2.7 Task Analysis</a></li><li><a class=\"inline-link\" data-page=\"distributed-cognition\" href=\"#distributed-cognition\">2.8 Distributed Cognition</a></li><li><a class=\"inline-link\" data-page=\"interfaces-politics\" href=\"#interfaces-politics\">2.9 Interfaces and Politics</a></li><li><a class=\"inline-link\" data-page=\"principles-recap\" href=\"#principles-recap\">2.10 Conclusion to Principles</a></li></ul><h2>3 — Methods</h2><ul><li><a class=\"inline-link\" data-page=\"planning\" href=\"#planning\">3.1 Introduction to Methods</a></li><li><a class=\"inline-link\" data-page=\"ethics\" href=\"#ethics\">3.2 Ethics and Human Research</a></li><li><a class=\"inline-link\" data-page=\"needfinding\" href=\"#needfinding\">3.3 Needfinding and Requirements Gathering</a></li><li><a class=\"inline-link\" data-page=\"brainstorming\" href=\"#brainstorming\">3.4 Design Alternatives</a></li><li><a class=\"inline-link\" data-page=\"fidelity\" href=\"#fidelity\">3.5 Prototyping</a></li><li><a class=\"inline-link\" data-page=\"evaluation\" href=\"#evaluation\">3.6 Evaluation</a></li><li><a class=\"inline-link\" data-page=\"agile\" href=\"#agile\">3.7 HCI and Agile Development</a></li><li><a class=\"inline-link\" data-page=\"methods-recap\" href=\"#methods-recap\">3.8 Conclusion to Methods</a></li></ul><h2>4 — Applications</h2><ul><li><a class=\"inline-link\" data-page=\"technologies\" href=\"#technologies\">4.1 Technologies</a></li><li><a class=\"inline-link\" data-page=\"ideas\" href=\"#ideas\">4.2 Ideas</a></li><li><a class=\"inline-link\" data-page=\"domains\" href=\"#domains\">4.3 Domains</a></li></ul><h2>5 — Conclusion</h2><ul><li><a class=\"inline-link\" data-page=\"next-steps\" href=\"#next-steps\">5.1 Course Recap</a></li><li><a class=\"inline-link\" data-page=\"next-steps\" href=\"#next-steps\">5.2 Related Fields</a></li><li><a class=\"inline-link\" data-page=\"next-steps\" href=\"#next-steps\">5.3 Next Steps</a></li></ul><h2>Readings</h2><p><a class=\"inline-link\" data-page=\"reading-guide\" href=\"#reading-guide\">Course reading guide</a></p><p class=\"source-note\">Lesson titles and numbering: saved Fall 2026 CS6750 syllabus. Linked notes are original study summaries, primarily based on the saved Summer 2017 lecture transcript; they are not complete lecture replacements.</p>"
   }
 };
