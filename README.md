@@ -13,3 +13,5 @@ CS6750 Individual Project research prototype. Application styling is based on a 
 Add `&study=1` to hide the alternative-switching bar for a focused study link. The current-workflow view is a reconstruction, not a captured baseline. This static demo has no account connection, private-file access, analytics, or survey-response collection.
 
 Serve these files with any static host; no installation or build step is required.
+
+The current-workflow view follows the supplied screenshot: chat sessions grouped under a project, a center chat pane, and a separate Markdown file preview on the right. It has no Wiki entry, generated Related pages section, or added cross-page links. Notes are opened from file references in a session.
