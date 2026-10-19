@@ -1,6 +1,6 @@
 # Knowledge navigation prototype
 
-Independent CS6750 exploratory interface study. Application styling is based on a supplied Codex screenshot. Wiki navigation is a proposed design, not a released product feature. All notes are illustrative.
+CS6750 Individual Project research prototype. Application styling is based on a supplied Codex screenshot. Wiki navigation is a proposed design, not a released product feature. The knowledge base contains 23 original course-study summaries across six topics, with source notes, examples, and review questions. No course PDFs or lecture transcript passages are published.
 
 ## Views
 
