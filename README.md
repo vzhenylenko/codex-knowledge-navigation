@@ -28,8 +28,8 @@ Direct image URLs use the same paths below the GitHub Pages site URL. These imag
 
 ### Combined horizontal comparison
 
-[A — Page Tree, B — Topics, C — Search: one image](screenshots/navigation-options-abc-horizontal-v1.png)
+[A — Page Tree, B — Topics, C — Search: one image](screenshots/navigation-options-abc-horizontal-v2.png)
 
-![A, B, and C aligned left to right](screenshots/navigation-options-abc-horizontal-v1.png)
+![A, B, and C aligned left to right](screenshots/navigation-options-abc-horizontal-v2.png)
 
-The original compact screenshots retain the same scale, with their Knowledge base headings aligned. PNG size: 1808 × 1196 pixels.
+The original compact screenshots retain the same scale, with their Knowledge base headings aligned. Equal panel crops: 278 × 520 CSS pixels. PNG size: 1808 × 1172 pixels. Topics currently use the same classification as folders: A expands pages inline, while B opens a category index and offers a visit trail.
