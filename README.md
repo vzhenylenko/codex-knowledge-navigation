@@ -20,15 +20,15 @@ The current-workflow view follows the supplied screenshot: chat sessions grouped
 
 A browses the Markdown folder hierarchy. B groups pages into six cross-cutting topics; one page can belong to several topics, and each topic includes pages from multiple folders. For example, Internal validity appears under Trust & evidence and Planning a study while retaining its Research methods folder.
 
-C searches across 40 course notes. The example query `validity` ranks matching titles first and displays each result's folder and a short excerpt. The topic dropdown narrows the scope. Search is local keyword matching.
+C searches across 40 course notes. The example query `validity` ranks matching titles first and displays each result's folder and a short excerpt. Rounded, clickable topic chips narrow the scope. The visible cloud uses the six cross-cutting topics. Search is local keyword matching.
 
-- [Option A — Page tree](screenshots/option-a-concept-v4.png)
-- [Option B — Cross-cutting topics](screenshots/option-b-concept-v4.png)
-- [Option C — Contextual search](screenshots/option-c-concept-v4.png)
-- [A–B–C horizontal comparison](screenshots/navigation-options-abc-horizontal-v3.png)
+- [Option A — Page tree](screenshots/option-a-cloud-v5.png)
+- [Option B — Cross-cutting topics](screenshots/option-b-cloud-v5.png)
+- [Option C — Contextual search](screenshots/option-c-cloud-v5.png)
+- [A–B–C horizontal comparison](screenshots/navigation-options-abc-horizontal-v4.png)
 
-![A, B, and C aligned left to right](screenshots/navigation-options-abc-horizontal-v3.png)
+![A, B, and C aligned left to right](screenshots/navigation-options-abc-horizontal-v4.png)
 
-Each actual UI capture is 278 × 598 CSS pixels at 2× scale, with matching top alignment and shared context rows. Combined PNG: 1808 × 1328 pixels. The captures show Reliability opened after Internal validity. These are images of the research prototype.
+Each actual UI capture is 278 CSS pixels wide at 2× scale, with matching top alignment and shared context rows. Equal-height frames accommodate clean row boundaries (A/B crops: 598 CSS px; C: 588 CSS px). Combined PNG: 1808 × 1328 pixels. The captures show Reliability opened after Internal validity. These are images of the research prototype.
 
 Example views: `?mode=B&topic=Trust%20%26%20evidence` and `?mode=C&q=validity&page=validity`.
