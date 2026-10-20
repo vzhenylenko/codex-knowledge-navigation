@@ -1,12 +1,12 @@
 # Knowledge navigation prototype
 
-CS6750 Individual Project research prototype. Application styling is based on a supplied Codex screenshot. Wiki navigation is a proposed design, not a released product feature. The knowledge base contains 40 original course-study resources across nine topics, with source notes, examples, and review questions. No course PDFs or lecture transcript passages are published.
+CS6750 Individual Project research prototype. Application styling is based on a supplied Codex screenshot. Wiki navigation is a proposed design, not a released product feature. The knowledge base contains 40 original course-study resources in nine folders and six cross-cutting topics, with source notes, examples, and review questions. No course PDFs or lecture transcript passages are published.
 
 ## Views
 
 - `index.html?mode=A`: page tree
-- `index.html?mode=B`: topics and visit trail
-- `index.html?mode=C`: search and recent pages
+- `index.html?mode=B`: cross-cutting topics and visit trail
+- `index.html?mode=C`: ranked keyword search with excerpts, folder context, topic scope, and recent pages
 - `index.html?mode=current`: reconstruction of the author-reported chat/file workflow
 - `basic.html`: original low-fidelity wireframes
 
@@ -16,20 +16,19 @@ Serve these files with any static host; no installation or build step is require
 
 The current-workflow view follows the supplied screenshot: chat sessions grouped under a project, a center chat pane, and a separate Markdown file preview on the right. It has no Wiki entry, generated Related pages section, or added cross-page links. Notes are opened from file references in a session.
 
-## Navigation close-ups
+## Current navigation comparison
 
-Cropped screenshots of the proposed navigation panels, captured from the public prototype at the same task step: Reliability opened after Internal validity. All crops are 278 CSS pixels wide and captured at 2× resolution. The compact PNG sizes are A: 556 × 900, B: 556 × 1064, and C: 556 × 988. Research methods is collapsed in A; each image ends after a complete row.
+A browses the Markdown folder hierarchy. B groups pages into six cross-cutting topics; one page can belong to several topics, and each topic includes pages from multiple folders. For example, Internal validity appears under Trust & evidence and Planning a study while retaining its Research methods folder.
 
-- [Option A — Page tree](screenshots/option-a-page-tree-compact-v2.png)
-- [Option B — Topics](screenshots/option-b-topics-compact-v2.png)
-- [Option C — Search](screenshots/option-c-search-compact-v2.png)
+C searches across 40 course notes. The example query `validity` ranks matching titles first and displays each result's folder and a short excerpt. The topic dropdown narrows the scope. Search is local keyword matching.
 
-Direct image URLs use the same paths below the GitHub Pages site URL. These images are screenshots of the research prototype, not the live Codex product.
+- [Option A — Page tree](screenshots/option-a-concept-v4.png)
+- [Option B — Cross-cutting topics](screenshots/option-b-concept-v4.png)
+- [Option C — Contextual search](screenshots/option-c-concept-v4.png)
+- [A–B–C horizontal comparison](screenshots/navigation-options-abc-horizontal-v3.png)
 
-### Combined horizontal comparison
+![A, B, and C aligned left to right](screenshots/navigation-options-abc-horizontal-v3.png)
 
-[A — Page Tree, B — Topics, C — Search: one image](screenshots/navigation-options-abc-horizontal-v2.png)
+Each actual UI capture is 278 × 598 CSS pixels at 2× scale, with matching top alignment and shared context rows. Combined PNG: 1808 × 1328 pixels. The captures show Reliability opened after Internal validity. These are images of the research prototype.
 
-![A, B, and C aligned left to right](screenshots/navigation-options-abc-horizontal-v2.png)
-
-The original compact screenshots retain the same scale, with their Knowledge base headings aligned. Equal panel crops: 278 × 520 CSS pixels. PNG size: 1808 × 1172 pixels. Topics currently use the same classification as folders: A expands pages inline, while B opens a category index and offers a visit trail.
+Example views: `?mode=B&topic=Trust%20%26%20evidence` and `?mode=C&q=validity&page=validity`.

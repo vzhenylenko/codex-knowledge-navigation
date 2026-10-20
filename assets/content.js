@@ -279,7 +279,7 @@ window.courseNotes = {
     "folder": "Needfinding",
     "lesson": "3.3",
     "path": "/wiki/needfinding/bias-in-needfinding.md",
-    "summary": "Check how expectations, questions, recruitment, and memory shape findings.",
+    "summary": "Recognize sampling, response, and wording bias in surveys and other needfinding methods.",
     "links": [
       "survey",
       "needfinding",
@@ -620,4 +620,97 @@ window.courseNotes = {
     "source": "Lesson titles and numbering: saved Fall 2026 CS6750 syllabus. Linked notes are original study summaries, primarily based on the saved Summer 2017 lecture transcript; they are not complete lecture replacements.",
     "body": "<p>A course-wide index of all five units. Each lesson leads to a related study summary; some summaries cover several lessons.</p><h2>1 — Introduction</h2><ul><li><a class=\"inline-link\" data-page=\"introduction\" href=\"#introduction\">1.1 Introduction to Human-Computer Interaction</a></li><li><a class=\"inline-link\" data-page=\"introduction\" href=\"#introduction\">1.2 Introduction to CS6750</a></li><li><a class=\"inline-link\" data-page=\"introduction\" href=\"#introduction\">1.3 Exploring HCI</a></li></ul><h2>2 — Principles</h2><ul><li><a class=\"inline-link\" data-page=\"principles-recap\" href=\"#principles-recap\">2.1 Introduction to Principles</a></li><li><a class=\"inline-link\" data-page=\"feedback-cycles\" href=\"#feedback-cycles\">2.2 Feedback Cycles</a></li><li><a class=\"inline-link\" data-page=\"direct-manipulation\" href=\"#direct-manipulation\">2.3 Direct Manipulation and Invisible Interfaces</a></li><li><a class=\"inline-link\" data-page=\"cognitive-load\" href=\"#cognitive-load\">2.4 Human Abilities</a></li><li><a class=\"inline-link\" data-page=\"design-principles\" href=\"#design-principles\">2.5 Design Principles and Heuristics</a></li><li><a class=\"inline-link\" data-page=\"representations\" href=\"#representations\">2.6 Mental Models and Representations</a></li><li><a class=\"inline-link\" data-page=\"task-analysis\" href=\"#task-analysis\">2.7 Task Analysis</a></li><li><a class=\"inline-link\" data-page=\"distributed-cognition\" href=\"#distributed-cognition\">2.8 Distributed Cognition</a></li><li><a class=\"inline-link\" data-page=\"interfaces-politics\" href=\"#interfaces-politics\">2.9 Interfaces and Politics</a></li><li><a class=\"inline-link\" data-page=\"principles-recap\" href=\"#principles-recap\">2.10 Conclusion to Principles</a></li></ul><h2>3 — Methods</h2><ul><li><a class=\"inline-link\" data-page=\"planning\" href=\"#planning\">3.1 Introduction to Methods</a></li><li><a class=\"inline-link\" data-page=\"ethics\" href=\"#ethics\">3.2 Ethics and Human Research</a></li><li><a class=\"inline-link\" data-page=\"needfinding\" href=\"#needfinding\">3.3 Needfinding and Requirements Gathering</a></li><li><a class=\"inline-link\" data-page=\"brainstorming\" href=\"#brainstorming\">3.4 Design Alternatives</a></li><li><a class=\"inline-link\" data-page=\"fidelity\" href=\"#fidelity\">3.5 Prototyping</a></li><li><a class=\"inline-link\" data-page=\"evaluation\" href=\"#evaluation\">3.6 Evaluation</a></li><li><a class=\"inline-link\" data-page=\"agile\" href=\"#agile\">3.7 HCI and Agile Development</a></li><li><a class=\"inline-link\" data-page=\"methods-recap\" href=\"#methods-recap\">3.8 Conclusion to Methods</a></li></ul><h2>4 — Applications</h2><ul><li><a class=\"inline-link\" data-page=\"technologies\" href=\"#technologies\">4.1 Technologies</a></li><li><a class=\"inline-link\" data-page=\"ideas\" href=\"#ideas\">4.2 Ideas</a></li><li><a class=\"inline-link\" data-page=\"domains\" href=\"#domains\">4.3 Domains</a></li></ul><h2>5 — Conclusion</h2><ul><li><a class=\"inline-link\" data-page=\"next-steps\" href=\"#next-steps\">5.1 Course Recap</a></li><li><a class=\"inline-link\" data-page=\"next-steps\" href=\"#next-steps\">5.2 Related Fields</a></li><li><a class=\"inline-link\" data-page=\"next-steps\" href=\"#next-steps\">5.3 Next Steps</a></li></ul><h2>Readings</h2><p><a class=\"inline-link\" data-page=\"reading-guide\" href=\"#reading-guide\">Course reading guide</a></p><p class=\"source-note\">Lesson titles and numbering: saved Fall 2026 CS6750 syllabus. Linked notes are original study summaries, primarily based on the saved Summer 2017 lecture transcript; they are not complete lecture replacements.</p>"
   }
+};
+
+window.courseTopics = {
+  "Navigation & orientation": [
+    "gulf-execution",
+    "gulf-evaluation",
+    "mental-models",
+    "recognition-recall",
+    "representations",
+    "task-analysis",
+    "direct-manipulation",
+    "design-principles",
+    "distributed-cognition",
+    "cognitive-load",
+    "feedback-cycles",
+    "introduction",
+    "course-map",
+    "reading-guide"
+  ],
+  "Learning & memory": [
+    "recognition-recall",
+    "cognitive-load",
+    "mental-models",
+    "representations",
+    "distributed-cognition",
+    "feedback-cycles",
+    "principles-recap",
+    "domains",
+    "introduction"
+  ],
+  "Trust & evidence": [
+    "validity",
+    "bias",
+    "evaluation",
+    "reliability",
+    "external-validity",
+    "variables",
+    "qualitative-quantitative",
+    "survey",
+    "ethics",
+    "observation",
+    "heuristic-evaluation"
+  ],
+  "Planning a study": [
+    "needfinding",
+    "survey",
+    "interviews",
+    "observation",
+    "ethics",
+    "planning",
+    "task-analysis",
+    "variables",
+    "qualitative-quantitative",
+    "evaluation",
+    "cognitive-walkthrough",
+    "heuristic-evaluation",
+    "reliability",
+    "validity",
+    "bias",
+    "methods-recap"
+  ],
+  "Designing interactions": [
+    "brainstorming",
+    "planning",
+    "fidelity",
+    "horizontal-vertical",
+    "design-principles",
+    "direct-manipulation",
+    "gulf-execution",
+    "gulf-evaluation",
+    "feedback-cycles",
+    "representations",
+    "interfaces-politics",
+    "principles-recap",
+    "agile",
+    "methods-recap",
+    "cognitive-walkthrough",
+    "evaluation",
+    "task-analysis"
+  ],
+  "Technology & society": [
+    "technologies",
+    "ideas",
+    "domains",
+    "interfaces-politics",
+    "ethics",
+    "next-steps",
+    "distributed-cognition",
+    "agile",
+    "introduction",
+    "course-map",
+    "reading-guide"
+  ]
 };
