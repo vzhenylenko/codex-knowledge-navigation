@@ -20,8 +20,8 @@ The current-workflow view follows the supplied screenshot: chat sessions grouped
 
 Cropped screenshots of the proposed navigation panels, captured from the public prototype at the same task step: Reliability opened after Internal validity. All crops are 278 CSS pixels wide and captured at 2× resolution. The compact PNG sizes are A: 556 × 900, B: 556 × 1064, and C: 556 × 988. Research methods is collapsed in A; each image ends after a complete row.
 
-- [Option A — Page tree](screenshots/option-a-page-tree.png)
-- [Option B — Topics](screenshots/option-b-topics.png)
-- [Option C — Search](screenshots/option-c-search.png)
+- [Option A — Page tree](screenshots/option-a-page-tree-compact-v2.png)
+- [Option B — Topics](screenshots/option-b-topics-compact-v2.png)
+- [Option C — Search](screenshots/option-c-search-compact-v2.png)
 
 Direct image URLs use the same paths below the GitHub Pages site URL. These images are screenshots of the research prototype, not the live Codex product.
