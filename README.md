@@ -25,3 +25,11 @@ Cropped screenshots of the proposed navigation panels, captured from the public 
 - [Option C — Search](screenshots/option-c-search-compact-v2.png)
 
 Direct image URLs use the same paths below the GitHub Pages site URL. These images are screenshots of the research prototype, not the live Codex product.
+
+### Combined horizontal comparison
+
+[A — Page Tree, B — Topics, C — Search: one image](screenshots/navigation-options-abc-horizontal-v1.png)
+
+![A, B, and C aligned left to right](screenshots/navigation-options-abc-horizontal-v1.png)
+
+The original compact screenshots retain the same scale, with their Knowledge base headings aligned. PNG size: 1808 × 1196 pixels.
