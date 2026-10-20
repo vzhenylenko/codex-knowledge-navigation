@@ -15,3 +15,13 @@ Add `&study=1` to hide the alternative-switching bar for a focused study link. T
 Serve these files with any static host; no installation or build step is required.
 
 The current-workflow view follows the supplied screenshot: chat sessions grouped under a project, a center chat pane, and a separate Markdown file preview on the right. It has no Wiki entry, generated Related pages section, or added cross-page links. Notes are opened from file references in a session.
+
+## Navigation close-ups
+
+Cropped screenshots of the proposed navigation panels, captured from the public prototype at the same task step: Reliability opened after Internal validity. Each crop is 278 × 590 CSS pixels, captured at 2× resolution (556 × 1180 PNG).
+
+- [Option A — Page tree](screenshots/option-a-page-tree.png)
+- [Option B — Topics](screenshots/option-b-topics.png)
+- [Option C — Search](screenshots/option-c-search.png)
+
+Direct image URLs use the same paths below the GitHub Pages site URL. These images are screenshots of the research prototype, not the live Codex product.
