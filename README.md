@@ -18,7 +18,7 @@ The current-workflow view follows the supplied screenshot: chat sessions grouped
 
 ## Navigation close-ups
 
-Cropped screenshots of the proposed navigation panels, captured from the public prototype at the same task step: Reliability opened after Internal validity. Each crop is 278 × 590 CSS pixels, captured at 2× resolution (556 × 1180 PNG).
+Cropped screenshots of the proposed navigation panels, captured from the public prototype at the same task step: Reliability opened after Internal validity. All crops are 278 CSS pixels wide and captured at 2× resolution. The compact PNG sizes are A: 556 × 900, B: 556 × 1064, and C: 556 × 988. Research methods is collapsed in A; each image ends after a complete row.
 
 - [Option A — Page tree](screenshots/option-a-page-tree.png)
 - [Option B — Topics](screenshots/option-b-topics.png)
